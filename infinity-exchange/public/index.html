@@ -1,4 +1,30 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Add React in One Minute</title>
+  </head>
+  <body>
+
+    <h2>Add React in One Minute</h2>
+    <p>This page demonstrates using React with no build tooling.</p>
+    <p>React is loaded as a script tag.</p>
+
+    <!-- We will put our React component inside this div. -->
+    <div id="like_button_container"></div>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="like_button.js"></script>
+
+  </body>
+</html>
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,22 +34,22 @@
     <title>ebay clone</title>
     <script src="https://kit.fontawesome.com/1cb0bb75dc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="shubham.css">
-<link type="text/css" rel="stylesheet" href="css/style.css"/>
 </head>
+
 
 <body>
     <div id="sc1">
         <div id="sc11">
-            <h4 id="sc111">Welcome to INF8 Data-Exchange! <a href="signin.html">Sign in</a> or <a href="register.html">Register</a></h4>
-            <h4> <a href="" style="color:rgb(255, 255, 255); text-decoration: none; ">Daily Deals</a></h4>
-            <h4><a href="" style="color:rgb(255, 255, 255);  text-decoration: none;">Help & Contact</a></h4>
+            <h4 id="sc111">Hi! <a href="signin.html">Sign in</a> or <a href="register.html">register</a></h4>
+            <h4> <a href="" style="color:black; text-decoration: none; ">Daily Deals</a></h4>
+            <h4><a href="" style="color:black;  text-decoration: none;">Help & Contact</a></h4>
 
         </div>
         <div id="sc12">
-            <h4>Sell Your Data </h4>
+            <h4>Sell </h4>
             <h4>Watchlist <i class="fa-solid fa-angle-down"></i></h4>
             <div id="helloMouse">
-                <h4 onclick="window.location.href='signin.html'">My Account<i class="fa-solid fa-angle-down"></i></h4>
+                <h4 onclick="window.location.href='signin.html'">My eBay<i class="fa-solid fa-angle-down"></i></h4>
                 <div id="absolute_My_eBay">
                     <a href="">
                         <p>Summary</p>
@@ -91,12 +117,13 @@ Musical instruments
 
     <div id="sc2">
         <div id="sc21" onclick="window.location.href='index.html'">
-            <img src="https://images.squarespace-cdn.com/content/v1/6010fecae6d31b0d1c329ffa/1625587507210-BUYV4CJPYX8YL6XASXGH/infinite+8%284%29.png?format=1500w" alt="">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/EBay_logo.svg/1200px-EBay_logo.svg.png"
+                alt="">
         </div>
 
         <div id="sc22">
             <p>
-                Filter data
+                Shop by category
             </p>
             <i class="fa-solid fa-angle-down"></i>
         </div>
@@ -135,13 +162,13 @@ Musical instruments
         </div>
         <div id="sc42">
             <a href="">
-                <p>Available Data Types </p>
+                <p>Saved </p>
             </a>
         </div>
 
         <div id="sc43">
             <a href="MElectronics.html">
-                <p onclick="">Physcial Health</p>
+                <p onclick="">Electronics</p>
             </a>
 
             <div id="sc431">
@@ -149,25 +176,25 @@ Musical instruments
                     <h3>Most popular categories</h3>
                     <hr>
                     <a href="#">
-                        <p class="shubham11">Cuts & Bruises</p>
+                        <p class="shubham11">Cell phones and accessories</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Broken Bones & X-Rays</p>
+                        <p class="shubham11">Video games and consoles</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"> Pulled Muscles</p>
+                        <p class="shubham11">Computers and tablets</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Knee Injuries</p>
+                        <p class="shubham11">Cameras and photos</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Tennis Elbow</p>
+                        <p class="shubham11">Camera drones</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Ankle Injury</p>
+                        <p class="shubham11">Asian Brands</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Post-surgical Conditions</p>
+                        <p class="shubham11">Smart home</p>
                     </a>
                 </div>
 
@@ -178,61 +205,61 @@ Musical instruments
                     <h3>More categories</h3>
                     <hr>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Apple</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Samsung</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Xiaomi</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Portable audio and headphones</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Smart watches</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Flash Data Deals</p>
+                        <p class="shubham11">Deals</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Sell on INF8 Data Data-Exchange</p>
+                        <p class="shubham11">Sell on eBay</p>
                     </a>
                 </div>
                 <div>
-                    <img src="https://wallpaperaccess.com/full/3776457.jpg" alt="">
+                    <img src="https://ir.ebaystatic.com/cr/v/c1/NAO-45026-19392.jpeg" alt="">
                 </div>
 
             </div>
         </div>
         <div id="sc44">
             <a href="MFashion.html">
-                <p>Mental Health</p>
+                <p>Fashion</p>
             </a>
             <div id="sc441">
                 <div>
                     <h3>Most popular categories</h3>
                     <hr>
                     <a href="#">
-                        <p class="shubham11">Anxiety disorders </p>
+                        <p class="shubham11">Footwear </p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Eating disorders</p>
+                        <p class="shubham11">Women's clothing</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Mood disorders</p>
+                        <p class="shubham11">Footwear for women</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Psychotic disorders</p>
+                        <p class="shubham11">Clothes for men</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Substance Disorder</p>
+                        <p class="shubham11">Men's footwear</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Depressive Disorder</p>
+                        <p class="shubham11">Watches</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Post-tramatic stress disorder</p>
+                        <p class="shubham11">Jewelry</p>
                     </a>
                 </div>
 
@@ -241,39 +268,39 @@ Musical instruments
                     <h3>More categories</h3>
                     <hr>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Accessories for men</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Accessories for women</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Bags and wallets for women</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Mens sunglasses</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Womens sunglasess</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Sneakers</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Flash Data Deals </p>
+                        <p class="shubham11">Deals </p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Sell on INF8 Data Data-Exchange</p>
+                        <p class="shubham11">Sell on eBay</p>
                     </a>
 
                 </div>
                 <div>
-                    <img src="https://wallpaperaccess.com/full/2091415.jpg" alt="">
+                    <img src="https://ir.ebaystatic.com/cr/v/c1/NAO-45026-19393-v2.jpeg" alt="">
                 </div>
             </div>
         </div>
         <div id="sc45">
             <a href="beauty.html">
-                <p>Oral Health</p>
+                <p>Health & Beauty</p>
             </a>
             <div id="sc451">
 
@@ -281,28 +308,28 @@ Musical instruments
                     <h3>Most popular categories</h3>
                     <hr>
                     <a href="beauty.html">
-                        <p class="shubham11">Oral hygiene</p>
+                        <p class="shubham11">Beauty</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Damaged or fractured tooth</p>
+                        <p class="shubham11">Makeup</p>
                     </a>
                     <a href="health.html">
-                        <p class="shubham11">Cavity</p>
+                        <p class="shubham11">Health</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Exposed root surfaces</p>
+                        <p class="shubham11">K-Beauty</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Tooth decay</p>
+                        <p class="shubham11"> Manicure and pedicure</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Gum disease</p>
+                        <p class="shubham11">Hair products</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Oral cancer</p>
+                        <p class="shubham11">Skin products</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Temporomandibular disorders</p>
+                        <p class="shubham11">Orthopedic products</p>
                     </a>
 
                 </div>
@@ -310,36 +337,36 @@ Musical instruments
                     <h3>More categories</h3>
                     <hr>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Vitamins and food supplements</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Shaving and waxing</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11"> Bath and personal hygiene</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Oral hygiene</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Massagers</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Flash Data Deals</p>
+                        <p class="shubham11">Deals</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Sell on INF8 Data Data-Exchange</p>
+                        <p class="shubham11">Sell on eBay</p>
                     </a>
                 </div>
                 <div>
-                    <img src="https://i.pinimg.com/originals/41/66/5d/41665df6037592629ecd0c1e8833b463.jpg" alt="">
+                    <img src="https://ir.ebaystatic.com/cr/v/c1/NAO-45026-19394.jpeg" alt="">
                 </div>
 
             </div>
         </div>
         <div id="sc46">
             <a href="">
-                <p>Skin Health</p>
+                <p>Home & Garden</p>
             </a>
             <div id="sc461">
 
@@ -347,36 +374,28 @@ Musical instruments
                     <h3>Most popular categories</h3>
                     <hr>
                     <a href="#">
-                        <p class="shubham11">Cuts and lacerations</p>
+                        <p class="shubham11">Workshop Tools and Equipment</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Scarring tissue</p>
+                        <p class="shubham11">Patio, garden and outdoors</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Dermatitis</p>
+                        <p class="shubham11">Home improvement</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">First Through Third degree burns</p>
+                        <p class="shubham11">Kitchen, dining and bar</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Hives</p>
+                        <p class="shubham11">Lamps, lights and fans</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Acne
-                        </p>
+                        <p class="shubham11">Interior decoration</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Bruises</p>
+                        <p class="shubham11">Home organization</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Eczema
-                        </p>
-                    </a>
-                    <a href="#">
-                        <p class="shubham11">Skin cancer</p>
-                    </a>
-                    <a href="#">
-                        <p class="shubham11">Herpes</p>
+                        <p class="shubham11">Home appliances</p>
                     </a>
 
                 </div>
@@ -384,40 +403,40 @@ Musical instruments
                     <h3>More categories</h3>
                     <hr>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Toys</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Pets</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Crafts</p>
                     </a>
                     <a href="moniArt.html">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Art supplies</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Musical instruments</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Jewelry and beads</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Flash Data Deals</p>
+                        <p class="shubham11">Deals</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Sell on INF8 Data Data-Exchange</p>
+                        <p class="shubham11">Sell on eBay</p>
                     </a>
 
                 </div>
                 <div>
-                    <img src="https://wallpaperaccess.com/full/6048932.jpg" alt="">
+                    <img src="https://ir.ebaystatic.com/cr/v/c1/NAO-45026-19395.jpeg" alt="">
                 </div>
 
             </div>
         </div>
         <div id="sc47">
             <a href="cycling.html">
-                <p>Reproductive Health</p>
+                <p>Sports</p>
             </a>
             <div id="sc471">
 
@@ -425,65 +444,65 @@ Musical instruments
                     <h3>Most popular categories</h3>
                     <hr>
                     <a href="#">
-                        <p class="shuhbam11">Endometriosis</p>
+                        <p class="shuhbam11">Cycling</p>
                     </a>
                     <a href="#">
-                        <p class="shuhbam11">Uterine Fibroids</p>
+                        <p class="shuhbam11">Fitness, running and yoga</p>
                     </a>
                     <a href="#">
-                        <p class="shuhbam11">Gynecologic Cancer</p>
+                        <p class="shuhbam11">Fitness Tech</p>
                     </a>
                     <a href="#">
-                        <p class="shuhbam11">Sexually Transmitted Diseases (STDs)</p>
+                        <p class="shuhbam11">Fishing</p>
                     </a>
                     <a href="#">
-                        <p class="shuhbam11">HIV/AIDS</p>
+                        <p class="shuhbam11">Camping</p>
                     </a>
                     <a href="#">
-                        <p class="shuhbam11"></p>
+                        <p class="shuhbam11">Scooters</p>
                     </a>
                     <a href="#">
-                        <p class="shuhbam11"></p>
+                        <p class="shuhbam11">Team sports</p>
                     </a>
                 </div>
                 <div>
                     <h3>More categories</h3>
                     <hr>
                     <a href="#">
-                        <p class="shuhbam11"></p>
+                        <p class="shuhbam11">Watersports</p>
                     </a>
                     <a href="#">
-                        <p class="shuhbam11"></p>
+                        <p class="shuhbam11">Winter sports</p>
                     </a>
                     <a href="#">
-                        <p class="shuhbam11"></p>
+                        <p class="shuhbam11">Box and MMA</p>
                     </a>
                     <a href="#">
-                        <p class="shuhbam11"></p>
+                        <p class="shuhbam11">Swimming</p>
                     </a>
                     <a href="#">
-                        <p class="shuhbam11"></p>
+                        <p class="shuhbam11">GPS & Running Watches</p>
                     </a>
                     <a href="#">
-                        <p class="shuhbam11"></p>
+                        <p class="shuhbam11">Garmin</p>
                     </a>
                     <a href="#">
-                        <p class="shuhbam11">Flash Data Deals</p>
+                        <p class="shuhbam11">Deals</p>
                     </a>
                     <a href="#">
-                        <p class="shuhbam11">Sell on INF8 Data Data-Exchange</p>
+                        <p class="shuhbam11">Sell on eBay</p>
                     </a>
 
                 </div>
                 <div>
-                    <img src="https://th.bing.com/th/id/OIP.u3M70CLWq0GZKxJlFBPFeQHaEo?pid=ImgDet&rs=1" alt="">
+                    <img src="https://ir.ebaystatic.com/cr/v/c1/NAO-45026-19396.jpeg" alt="">
                 </div>
 
             </div>
         </div>
         <div id="sc48">
             <a href="">
-                <p>Traumatic Brain Injuries</p>
+                <p>Collectibles and Art</p>
             </a>
             <div id="sc481">
 
@@ -491,128 +510,63 @@ Musical instruments
                     <h3>Most popular categories</h3>
                     <hr>
                     <a href="collectiblesAndArt.html">
-                        <p>Anoxia</p>
+                        <p>Collectibles</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Infections</p>
+                        <p class="shubham11">Art</p>
                     </a>
                     <a href="actionAndFigure.html">
-                        <p>Strokes</p>
+                        <p>Action figures</p>
                     </a>
                     <a href="collectibles.html">
-                        <p>Tumors</p>
+                        <p>Cartoon characters</p>
                     </a>
                     <a href="entertainment.html">
-                        <p>Metabolic Disorders</p>
+                        <p>Movie and TV characters</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Diecast</p>
                     </a>
                     <a href="recordAndPlayer.html">
-                        <p></p>
+                        <p>Musical memorabilia</p>
                     </a>
                 </div>
                 <div>
                     <h3>More categories</h3>
                     <hr>
                     <a href="actionAndFigure.html">
-                        <p></p>
+                        <p>Sports memorabilia</p>
                     </a>
                     <a href="actionAndFigure.html">
-                        <p></p>
+                        <p>Trading card games</p>
                     </a>
                     <a href="antiques.html">
-                        <p></p>
+                        <p>Antiques</p>
                     </a>
                     <a href="comics.html">
-                        <p></p>
+                        <p>Comics</p>
                     </a>
                     <a href="stamps.html">
-                        <p></p>
+                        <p>Funko pop</p>
                     </a>
                     <a href="vintage.html">
-                        <p>Flash Data Deals</p>
+                        <p>Deals</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Sell on INF8 Data Data-Exchange</p>
+                        <p class="shubham11">Sell on eBay</p>
                     </a>
                 </div>
                 <div>
-                    <img src="https://th.bing.com/th/id/R.dc5622570908375a050ddef12179afdb?rik=A0oEl7BYc%2fHMzg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fd%2fd%2f0%2f70002.jpg&ehk=dmPG22N3yPTovp1CB0y%2bv63XFy0m8KWmE3yhk2UVQao%3d&risl=&pid=ImgRaw&r=0" alt="">
+                    <img src="https://ir.ebaystatic.com/cr/v/c1/NAO-45026-19393-v2.jpeg" alt="">
                 </div>
 
             </div>
         </div>
         <div id="sc49">
             <a href="#">
-                <p>Social Health</p>
+                <p>Industrial equipment</p>
             </a>
             <div id="sc491">
-
-                <div>
-                    <h3>Most popular categories</h3>
-                    <hr>
-                    <a href="#">
-                        <p class="shubham11">Zip Code Geography</p>
-                    </a>
-                    <a href="#">
-                        <p class="shubham11">Walkability</p>
-                    </a>
-                    <a href="#">
-                        <p class="shubham11">Transportation Emissons</p>
-                    </a>
-                    <a href="#">
-                        <p class="shubham11">Acess To Health Options</p>
-                    </a>
-                    <a href="#">
-                        <p class="shubham11">Quality Of Care</p>
-                    </a>
-                    <a href="#">
-                        <p class="shubham11"></p>
-                    </a>
-                    <a href="#">
-                        <p class="shubham11"></p>
-                    </a>
-                </div>
-                <div>
-                    <h3>More categories</h3>
-                    <hr>
-                    <a href="#">
-                        <p class="shubham11"></p>
-                    </a>
-                    <a href="#">
-                        <p class="shubham11"></p>
-                    </a>
-                    <a href="#">
-                        <p class="shubham11"></p>
-                    </a>
-                    <a href="#">
-                        <p class="shubham11"></p>
-                    </a>
-                    <a href="#">
-                        <p class="shubham11"></p>
-                    </a>
-                    <a href="#">
-                        <p class="shubham11"></p>
-                    </a>
-                    <a href="#">
-                        <p class="shubham11">Flash Data Deals</p>
-                    </a>
-                    <a href="#">
-                        <p class="shubham11">Sell on INF8 Data Data-Exchange</p>
-                    </a>
-                </div>
-                <div>
-                    <img src="https://th.bing.com/th/id/R.a60ca64d5436eae2606f05a50a82332a?rik=8B41hHKLWXsWcQ&pid=ImgRaw&r=0" alt="">
-                </div>
-
-            </div>
-        </div>
-        <div id="sc51">
-            <a href="#">
-                <p>Public Health</p>
-            </a>
-            <div id="sc511">
 
                 <div>
                     <h3>Most popular categories</h3>
@@ -621,71 +575,136 @@ Musical instruments
                         <p class="shubham11">Dental healthcare</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Community Health</p>
+                        <p class="shubham11">Electronic equipment and supplies</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Epidemiology</p>
+                        <p class="shubham11">Metallurgy and manufacturing</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Environmental Health</p>
+                        <p class="shubham11">Motors and industrial automation</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Global Health</p>
+                        <p class="shubham11">Heavy equipment parts</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Light industrial tools</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Inspection, measurement and testing equipment</p>
                     </a>
-                    <a href="#">
-                        <p class="shubham11"></p>
-                    </a>
-
                 </div>
                 <div>
                     <h3>More categories</h3>
                     <hr>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Packing and shipping</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Office supplies and equipment</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Printing and graphic arts</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Restaurants and food service</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Maintenance and safety</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11"></p>
+                        <p class="shubham11">Retail and services</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Flash Data Deals</p>
+                        <p class="shubham11">Deals</p>
                     </a>
                     <a href="#">
-                        <p class="shubham11">Sell on INF8 Data Data-Exchange</p>
+                        <p class="shubham11">Sell on eBay</p>
+                    </a>
+                </div>
+                <div>
+                    <img src="https://ir.ebaystatic.com/cr/v/c1/NAO-45026-19398.jpeg" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div id="sc51">
+            <a href="#">
+                <p>Motors</p>
+            </a>
+            <div id="sc511">
+
+                <div>
+                    <h3>Car</h3>
+                    <hr>
+                    <a href="#">
+                        <p class="shubham11">Auto and truck parts</p>
+                    </a>
+                    <a href="#">
+                        <p class="shubham11">Tools and supplies</p>
+                    </a>
+                    <a href="#">
+                        <p class="shubham11">Turbo chargers</p>
+                    </a>
+                    <a href="#">
+                        <p class="shubham11">Clothing and merchandise</p>
+                    </a>
+                    <a href="#">
+                        <p class="shubham11">Shock absorbers</p>
+                    </a>
+                    <a href="#">
+                        <p class="shubham11">Electronic and GPS</p>
+                    </a>
+                    <a href="#">
+                        <p class="shubham11">Car Care and Detailing</p>
+                    </a>
+                    <a href="#">
+                        <p class="shubham11">Vintage pieces</p>
                     </a>
 
                 </div>
                 <div>
-                    <img src="https://th.bing.com/th/id/R.2a898e51d3216250a5c9f3411fff27de?rik=eSnhhXyNDy4D8Q&pid=ImgRaw&r=0" alt="">
+                    <h3>Motorcycle and Offers</h3>
+                    <hr>
+                    <a href="#">
+                        <p class="shubham11">Motorcycle parts</p>
+                    </a>
+                    <a href="#">
+                        <p class="shubham11">Body and frame</p>
+                    </a>
+                    <a href="#">
+                        <p class="shubham11">Engines and parts</p>
+                    </a>
+                    <a href="#">
+                        <p class="shubham11">Accessories</p>
+                    </a>
+                    <a href="#">
+                        <p class="shubham11">Exhausts and systems</p>
+                    </a>
+                    <a href="#">
+                        <p class="shubham11">Rims</p>
+                    </a>
+                    <a href="#">
+                        <p class="shubham11">Deals</p>
+                    </a>
+                    <a href="#">
+                        <p class="shubham11">Sell on eBay</p>
+                    </a>
+
+                </div>
+                <div>
+                    <img src="https://ir.ebaystatic.com/cr/v/c1/NAO-45026-19399.jpeg" alt="">
                 </div>
 
             </div>
         </div>
         <div id="sc52">
             <a href="Nandudeals.html">
-                <p>Quick Auctions</p>
+                <p>Deals</p>
             </a>
         </div>
         <div id="sc53">
             <a href="Sell.html">
-                <p>Sell Data Here! </p>
+                <p>Sell</p>
             </a>
             <div id="sc531">
 
@@ -740,7 +759,7 @@ Musical instruments
                     </a>
                 </div>
                 <div>
-                    <img src="https://th.bing.com/th/id/OIP.iT_YWK4uqbyzigeOn0QpYAHaEK?pid=ImgDet&rs=1"">
+                    <img src="https://ir.ebaystatic.com/cr/v/c1/NAO-45026-19400.jpeg" alt="">
                 </div>
 
             </div>
@@ -748,141 +767,140 @@ Musical instruments
 
     </div>
 
-    <div id=" sc3">
-                    <hr>
-                </div>
+    <div id="sc3">
+        <hr>
+    </div>
 
-                <!-- 3rd nav bae end here -->
+    <!-- 3rd nav bae end here -->
 
-                <div id="sc6">
-                </div>
-
-
-                <!-- slidshow end here -->
-
-                <div id="sc7">
-                    <hr>
-
-                    <div id="sc71">
-                        <div>
-                            <a href="">
-                                <h3>Buy</h3>
-                            </a>
-                            <a href="">
-                                <p>Registration</p>
-                            </a>
-                            <a href="">
-                                <p>(INF8) Escrow Guarantee</p>
-                            </a>
-                            <a href="">
-                                <p>Bidding & buying help</p>
-                            </a>
-                            <a href="">
-                                <p>Reputable Data Stores</p>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="">
-                                <h3>Sell</h3>
-                            </a>
-                            <a href="">
-                                <p>Start selling</p>
-                            </a>
-                            <a href="">
-                                <p>Learn to sell</p>
-                            </a>
-                            <a href="">
-                                <p>Affiliates</p>
-                            </a>
-                            <a href="">
-                                <h3 style="margin-top: 50px;">Tools & apps</h3>
-                            </a>
-                            <a href="">
-                                <p>Developers</p>
-                            </a>
-                            <a href="">
-                                <p>Security center</p>
-                            </a>
-                            <a href="">
-                                <p>Site map</p>
-                            </a>
-
-                        </div>
-                        <div>
-                            <a href="">
-                                <h3>Stay connected </h3>
-                            </a>
-                            <a href="">
-                                <p>INF8 Newsletter</p>
-                            </a>
-                            <a href="">
-                                <p><i class="fa-brands fa-facebook-square"></i> Facebook</p>
-                            </a>
-                            <a href="">
-                                <p><i class="fa-brands fa-twitter-square"></i> Twitter</p>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="">
-                                <h3>About Infinite 8 Industries</h3>
-                            </a>
-                            <a href="">
-                                <p>Company info</p>
-                            </a>
-                            <a href="">
-                                <p>News</p>
-                            </a>
-                            <a href="">
-                                <p>Investors</p>
-                            </a>
-                            <a href="">
-                                <p>Careers</p>
-                            </a>
-                            <a href="">
-                                <p>Government relations</p>
-                            </a>
-                            <a href="">
-                                <p>Advertise with us</p>
-                            </a>
-                            <a href="">
-                                <p>Policies</p>
-                            </a>
-                            <a href="">
-                                <p>Verified Rights Owner (INF8) Program</p>
-                            </a>
-                        </div>
-                        <div style="color:#767676">
-                            <h3>Help & Contact</h3>
-                            <p>Seller Information Center</p>
-                            <p>Contact us</p>
-
-                            <h3 style="margin-top: 50px;">Community</h3>
-                            <p>Announcements</p>
-                            <p>Discussion boards</p>
-                            <p>(INF8) Giving Works</p>
-
-                            <h3 style="margin-top: 50px;">INF8 Sites</h3>
-                        </div>
-                    </div>
-                    <div id="shuc6">
-                        <p>Copyright © 1995-2022 Inf8 Inc. All Rights Reserved.
-                            Accessibility, User Agreement, Privacy, Cookies, Do not sell my personal information and AdChoice</p>
-                    </div>
-                    <div id="sc8" style="margin-left:90%">
-                        <img src="https://ir.ebaystatic.com/rs/v/acxp0mbuba3zva1qr31idsmitmi.png" alt="">
-                    </div>
-                </div>
+    <div id="sc6">
+    </div>
 
 
+    <!-- slidshow end here -->
 
-<script type="text/javascript" src="js/script.js"></script>
+    <div id="sc7">
+        <hr>
+
+        <div id="sc71">
+            <div>
+                <a href="">
+                    <h3>Buy</h3>
+                </a>
+                <a href="">
+                    <p>Registration</p>
+                </a>
+                <a href="">
+                    <p>eBay Money Back Guarantee</p>
+                </a>
+                <a href="">
+                    <p>Bidding & buying help</p>
+                </a>
+                <a href="">
+                    <p>Stores</p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <h3>Sell</h3>
+                </a>
+                <a href="">
+                    <p>Start selling</p>
+                </a>
+                <a href="">
+                    <p>Learn to sell</p>
+                </a>
+                <a href="">
+                    <p>Affiliates</p>
+                </a>
+                <a href="">
+                    <h3 style="margin-top: 50px;">Tools & apps</h3>
+                </a>
+                <a href="">
+                    <p>Developers</p>
+                </a>
+                <a href="">
+                    <p>Security center</p>
+                </a>
+                <a href="">
+                    <p>Site map</p>
+                </a>
+
+            </div>
+            <div>
+                <a href="">
+                    <h3>Stay connected </h3>
+                </a>
+                <a href="">
+                    <p>eBay's Blogs</p>
+                </a>
+                <a href="">
+                    <p><i class="fa-brands fa-facebook-square"></i> Facebook</p>
+                </a>
+                <a href="">
+                    <p><i class="fa-brands fa-twitter-square"></i> Twitter</p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <h3>About eBay</h3>
+                </a>
+                <a href="">
+                    <p>Company info</p>
+                </a>
+                <a href="">
+                    <p>News</p>
+                </a>
+                <a href="">
+                    <p>Investors</p>
+                </a>
+                <a href="">
+                    <p>Careers</p>
+                </a>
+                <a href="">
+                    <p>Government relations</p>
+                </a>
+                <a href="">
+                    <p>Advertise with us</p>
+                </a>
+                <a href="">
+                    <p>Policies</p>
+                </a>
+                <a href="">
+                    <p>Verified Rights Owner (VeRO) Program</p>
+                </a>
+            </div>
+            <div style="color:#767676">
+                <h3>Help & Contact</h3>
+                <p>Seller Information Center</p>
+                <p>Contact us</p>
+
+                <h3 style="margin-top: 50px;">Community</h3>
+                <p>Announcements</p>
+                <p>Discussion boards</p>
+                <p>eBay Giving Works</p>
+
+                <h3 style="margin-top: 50px;">eBay Sites</h3>
+            </div>
+        </div>
+        <div id="shuc6">
+            <p>Copyright © 1995-2022 eBay Inc. All Rights Reserved.
+                Accessibility, User Agreement, Privacy, Cookies, Do not sell my personal information and AdChoice</p>
+        </div>
+        <div id="sc8" style="margin-left:90%">
+            <img src="https://ir.ebaystatic.com/rs/v/acxp0mbuba3zva1qr31idsmitmi.png" alt="">
+        </div>
+    </div>
+
+
+
 </body>
 
 </html>
 <script>
     let shubham001 = document.querySelector("#sc23 > input[type=text]")
 
-    shubham001.addEventListener("keypress", function(event) {
+    shubham001.addEventListener("keypress", function (event) {
         if (event.code == "Enter") {
             localStorage.setItem("search_term", shubham001.value);
             window.location.href = "MahiArt.html";
@@ -893,7 +911,7 @@ Musical instruments
 
     })
 
-    document.querySelector("#sc2 > button").addEventListener("click", function(event) {
+    document.querySelector("#sc2 > button").addEventListener("click", function (event) {
 
 
         localStorage.setItem("search_term", shubham001.value)
@@ -903,8 +921,12 @@ Musical instruments
 
 
     })
+
 </script>
 <script>
+
+
+
     // slidshow part
 
     let id;
@@ -912,9 +934,8 @@ Musical instruments
 
     const slidshow = () => {
         let imageArr = [
-            "https://th.bing.com/th/id/R.6a8525a30aff0d52fd9981fd5a91ed7a?rik=qJU%2b7mHhB2QfNw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2ff%2f8%2fe%2f7086.jpg&ehk=9cz2Rb916IYnSyW5vFwfU4V6xVuRSCEtQjMGgkIrNtE%3d&risl=&pid=ImgRaw&r=0",
-            "https://wi.wallpapertip.com/wsimgs/14-143916_lg-android-stock-android-stock-wallpaper-wide.jpg",
-            "https://th.bing.com/th/id/OIP.HsRqE4OtOQVN0zfl23aAQwHaEK?pid=ImgDet&rs=1",
+            "https://ir.ebaystatic.com/cr/v/c1/NAO-45026-19392.jpeg",
+            "https://ir.ebaystatic.com/cr/v/c1/NAO-45026-19393-v2.jpeg"
         ]
 
         let sc6con = document.querySelector("#sc6")
@@ -946,7 +967,7 @@ Musical instruments
     let arrscript23 = document.querySelectorAll(".shubham11");
     console.log(arrscript23);
     for (let i = 0; i < arrscript23.length; i++) {
-        arrscript23[i].addEventListener("click", function() {
+        arrscript23[i].addEventListener("click", function () {
             // console.log(arrscript23[i].children[j].innerText);
             let searchTerm = arrscript23[i].innerText;
             console.log(searchTerm);
