@@ -1,7 +1,5 @@
 <h1 align="center">  Ebay E-Commerce Website </h1>
 
-eBay is one of the oldest and most successful e-commerce websites on the Internet, but it doesn’t sell any items itself. Instead, it allows users to list items for sale, which other users can then bid on in auctions. Recently, eBay has also added options to buy items at face value, or submit price offers for them.
-
 ![IMG-20220606-WA0000_1654520149514](https://miro.medium.com/max/630/1*ZDiCjNAtffkbZHwItMee1g.png)
 ![image](https://user-images.githubusercontent.com/42171178/192327495-569c6a29-d419-49d9-92f5-40d89c366b91.png)
 ![image](https://user-images.githubusercontent.com/42171178/192327679-caef779f-79fb-4a38-90fb-b1f36f4ba16a.png)
